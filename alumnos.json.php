@@ -2,8 +2,8 @@
 header("Content-Type: text/javascript");
 
 $dbhost = "localhost";
-$dbuser = "jorge";
-$dbpass = "jorge";
+$dbuser = "root";
+$dbpass = "";
 $db = "academico";
  
 $conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Conexion fallida: %s\n". $conn -> error);
