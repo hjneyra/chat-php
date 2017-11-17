@@ -11,7 +11,7 @@ $db = "academico";
 
 $conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Conexion fallida: %s\n". $conn -> error);
 
-$sql = "SELECT codigo, nombres, apellido_paterno, apellido_materno, fecha_nacimiento FROM alumno";
+$sql = "SELECT codigo FROM alumno WHERE codigo='" . $data["codigo"] . "'";
 
 $result = $conn->query($sql);
 
