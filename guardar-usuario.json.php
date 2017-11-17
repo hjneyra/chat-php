@@ -7,7 +7,7 @@ $data = json_decode(file_get_contents('php://input'), true);
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$db = "academico";
+$db = "chat";
 
 $conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Conexion fallida: %s\n". $conn -> error);
 

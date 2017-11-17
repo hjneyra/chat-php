@@ -5,7 +5,7 @@ header("Content-Type: text/javascript");
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$db = "academico";
+$db = "chat";
 
 $codigo = $_GET["codigo"];
 
